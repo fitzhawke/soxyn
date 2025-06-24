@@ -19,7 +19,6 @@
     lutris
     mangohud
     ryubing
-    torzu
     umu-launcher
     winetricks
     wineWowPackages.wayland
