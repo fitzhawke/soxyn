@@ -5,6 +5,7 @@
   ...
 }: {
   home.sessionVariables.STARSHIP_CACHE = "${config.xdg.cacheHome}/starship";
+  stylix.targets.fish.enable = false;
 
   programs = {
     nix-index.enable = false;
@@ -230,12 +231,6 @@
         # Grep using ripgrep and pass to nvim
         nvimrg = "nvim -q (rg --vimgrep $argv | psub)";
       };
-      interactiveShellInit = ''
-        set fish_cursor_default     block      blink
-        set fish_cursor_insert      line       blink
-        set fish_cursor_replace_one underscore blink
-        set fish_cursor_visual      block
-      '';
     };
   };
 }
