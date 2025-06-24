@@ -27,7 +27,8 @@
     ripgrep # rusty grep
     rsync # folder syncing
     sd # sed alt in rust with easy syntax
-    unzip # archive manager
+    unar # archive manager
+    unzip # zip archive manager
     xh # http requests
     yt-dlp # youtube
 
