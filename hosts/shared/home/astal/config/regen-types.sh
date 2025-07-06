@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-ags types "*" -pd . --ignore Gtk3 --ignore Astal3
+ags types "*" -d . --ignore Gtk3 --ignore Astal3
