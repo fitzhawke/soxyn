@@ -22,6 +22,7 @@
     glow # render markdown in cli
     grex # generate regex expressions
     imagemagick # image conversion tools
+    firejail # sandboxing tool
     nmap # network scanning
     rbw # bitwarden cli
     ripgrep # rusty grep
