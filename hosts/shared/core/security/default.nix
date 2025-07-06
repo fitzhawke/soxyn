@@ -20,7 +20,7 @@
     ];
   };
 
-  programs.ssh.startAgent = true;
+  # programs.ssh.startAgent = true;
   security = {
     protectKernelImage = true;
     lockKernelModules = false;
