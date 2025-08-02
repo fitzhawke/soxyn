@@ -18,11 +18,8 @@
         })
       ];
 
-      cursor = with config.lib.stylix.colors; {
-        color = "${base00} ${base05}";
-      };
-
       colors = with config.lib.stylix.colors; {
+        cursor = "${base00} ${base05}";
         foreground = "${base05}";
         background = "${base00}";
 
